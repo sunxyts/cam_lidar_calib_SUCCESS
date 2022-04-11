@@ -489,7 +489,7 @@ public:
 };
 
 int main(int argc, char** argv) {
-    ros::init(argc, argv, "CameraLidarCalib_node");
+    ros::init(argc, argv, "cam_lidar_calib_node");
     ros::NodeHandle nh("~");
     camLidarCalib cLC(nh);
     ros::spin();
